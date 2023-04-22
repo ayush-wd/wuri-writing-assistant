@@ -27,7 +27,10 @@ function App() {
       <main>
         <main-left>
           <button className='btn-enter-app-name'>Enter your App name</button>
-          <p>Upload game files : </p>
+          <div className="main-left-p">
+            <p>Upload game files : </p>
+          </div>
+          
           <btn-list>
             <Button className='btn-upload' variant="contained" component="label">
               CSV for Story
